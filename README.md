@@ -6,5 +6,5 @@ Utilizing Alternative Shellcode Execution Via Callbacks
 Sandbox check / XORorAES / EnumUILanguagesW & InitOnceExecuteOnce
   
   
-https://docs.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-initonceexecuteonce
+https://docs.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-initonceexecuteonce   
 https://docs.microsoft.com/en-us/windows/win32/api/winnls/nf-winnls-enumuilanguagesw
