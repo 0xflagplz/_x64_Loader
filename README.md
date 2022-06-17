@@ -3,6 +3,14 @@ Utilizing Alternative Shellcode Execution Via Callbacks
 
 [Shellcode Generation](https://github.com/AchocolatechipPancake/encode_payload "Shellcode Generation")
 
+1. Run shellcode script
+2. Insert Output in main.cpp:
+```
+    char encryptedShellcode[] = "CHANGEME";
+    char key[] = "CHANGEME";
+    char cipherType[] = "CHANGEME";
+```
+
 Sandbox check / XORorAES / EnumUILanguagesW & InitOnceExecuteOnce
   
   
