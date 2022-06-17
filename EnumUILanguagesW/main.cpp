@@ -47,7 +47,7 @@ int main() {
     try {
 
         //BOOL EnumUILanguagesW(
-        //[in] UILANGUAGE_ENUMPROCW lpUILanguageEnumProc,
+        //    [in] UILANGUAGE_ENUMPROCW lpUILanguageEnumProc,
         //    [in] DWORD                dwFlags,
         //    [in] LONG_PTR             lParam
         //    );
@@ -73,7 +73,7 @@ int main() {
 
 
         //BOOL InitOnceExecuteOnce(
-        //[in, out]           PINIT_ONCE    InitOnce,
+        //    [in, out]           PINIT_ONCE    InitOnce,
         //    [in]                PINIT_ONCE_FN InitFn,
         //    [in, optional]      PVOID         Parameter,
         //    [in, out, optional] LPVOID* Context
