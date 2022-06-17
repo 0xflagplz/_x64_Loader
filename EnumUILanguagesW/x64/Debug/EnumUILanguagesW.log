@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\pc\Downloads\AlternativeShellcodeExec-master\AlternativeShellcodeExec\EnumUILanguagesW\main.cpp(17,19): warning C4244: 'initializing': conversion from 'DWORDLONG' to 'DWORD', possible loss of data
+C:\Users\pc\Downloads\AlternativeShellcodeExec-master\AlternativeShellcodeExec\EnumUILanguagesW\main.cpp(62,15): warning C4101: 'bStatus': unreferenced local variable
+  EnumUILanguagesW.vcxproj -> C:\Users\pc\Downloads\AlternativeShellcodeExec-master\AlternativeShellcodeExec\x64\Debug\Shellcode_Load_Callback.exe
