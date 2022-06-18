@@ -10,7 +10,7 @@ Utilizing Alternative Shellcode Execution Via Callbacks
     char key[] = "CHANGEME";
     char cipherType[] = "CHANGEME";
 ```
-3.  Select Build with Visual Studio
+3.  Build with Visual Studio
 
 Sandbox check / XORorAES / EnumUILanguagesW & InitOnceExecuteOnce
   
