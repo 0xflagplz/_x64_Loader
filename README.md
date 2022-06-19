@@ -19,4 +19,4 @@ https://docs.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-initonce
 https://docs.microsoft.com/en-us/windows/win32/api/winnls/nf-winnls-enumuilanguagesw
 
 
-![VirusTotal]([https://github.com/AchocolatechipPancake/FUD_x64_Loader/blob/main/VT.png])
+![VirusTotal](https://github.com/AchocolatechipPancake/FUD_x64_Loader/blob/main/VT.png)
